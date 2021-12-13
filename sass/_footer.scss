@@ -92,14 +92,10 @@
     &__social {
         display: flex;
         margin-right: 10rem;
+        position: relative;
 
         @media only screen and (max-width: $bp-mediumfive) {
             margin-top: 10rem;
-            margin-left: 29rem;
-        }
-
-        @media only screen and (max-width: $bp-small) {
-            margin-left: 26rem;
         }
 
         &--link {
